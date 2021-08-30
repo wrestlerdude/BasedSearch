@@ -432,4 +432,4 @@ def run_app() -> None:
     if args.debug:
         app.run(host=args.host, port=args.port, debug=args.debug)
     else:
-        waitress.serve(app, listen="{}:{}".format(args.host, args.port))
+        waitress.serve(app, url_scheme='https', listen="{}:{}".format(args.host, args.port))

@@ -2,7 +2,7 @@
     fill: transparent;
 }
 
-svg {
+img {
     height: inherit;
 }
 
@@ -11,7 +11,7 @@ a {
 }
 
 @media (max-width: 1000px) {
-    svg {
-        margin-top: .7em;
+    img {
+        margin-top: .2em;
     }
 }
